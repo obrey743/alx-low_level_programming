@@ -1,0 +1,1 @@
+A singly linked list is a data structure that consists of a sequence of nodes, where each node stores a reference to an object and a reference to the next node in the sequence. The first node is called the head of the list, and the last node is called the tail of the list.
