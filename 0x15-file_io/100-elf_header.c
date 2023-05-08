@@ -1,3 +1,4 @@
+
 #include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -99,7 +100,8 @@ void print_data(unsigned char *e_ident)
 	{
 	case ELFDATANONE:
 		printf("none\n");
-		break;	case ELFDATA2LSB:
+		break;
+	case ELFDATA2LSB:
 		printf("2's complement, little endian\n");
 		break;
 	case ELFDATA2MSB:
